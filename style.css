@@ -1,0 +1,143 @@
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header img{
+    padding: 10px 10px;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+main{
+    width: 100%;
+    height: 500px;
+    background: #456656;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    background: #355658;
+}
+
+section{
+    height: 100%;
+   
+}
+
+.seccion1{
+    width: 60%;
+    height: 80%;
+    margin: 45px 40px;
+}
+
+.seccion2{
+    width: 30%;
+    height: 80%;
+    margin: 45px 40px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 0px 0px 5px 1px black;
+}
+
+.contenedorImagen{
+    width: 100%;
+    height: 60%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.contenedorSubtitulo{
+    width: 100%;
+    height: 13%;
+    padding-top: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contenedorParrafo{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+}
+
+.textInput{
+    width: 80%;
+    height: 60%;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    display: block;
+    margin: 50px auto 0;
+    border-radius: 15px;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 0px 5px 1px black;
+}
+
+.textInput::placeholder{
+    text-align: center;
+    color: #2e3f9b;
+}
+
+.alerta{
+    margin: 5px 80px;
+    color: #a9a6bb;
+    font-weight: bold;
+}
+
+.contenedorBotones{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.botonEncriptar, .botonDesencriptar{
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: slategrey;
+}
+
+.textArea{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 15px;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 0px 5px 1px black;
+    display: none;
+    resize: none;
+}
+
+.contenedorCopiar{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.botonCopiar{
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: slategrey;
+}
+
+#botonCopiar{
+    display: none;
+}
+
+.footer{
+    text-align: center;
+    color: gainsboro;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
